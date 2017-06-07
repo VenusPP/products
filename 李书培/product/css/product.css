@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-20 10:08:03
+ * @version $Id$
+ */
+
+.dr-shop-paoducts{
+	overflow: hidden;
+	margin-top: -20px;
+	margin-left: -20px;
+}
+.dr-shop-paoducts li{
+    background: #fff;
+    float: left;
+    width: 320px;
+    height: 460px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.dr-thing-price {
+    text-align: center;
+    color: #797979;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+.dr-thing-word{
+	font-size: 14px;
+	color: #666;
+	font-family: "SimSun";
+	margin-bottom: 10px;
+}
+.dr-thing-button{
+    font-family: "SimSun";
+    font-size: 0;
+    margin-bottom: 14px;
+}
+.dr-thing-button span{
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	margin: 0 4px;
+	cursor: pointer;
+	color: #dbc7ba;
+	background: #fff;
+	border: 1px solid #dbc7ba;
+}
+.dr-thing-button i{
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	margin: 0 4px;
+	cursor: pointer;
+	color: #fff;
+    background: #dbc7ba;
+}
+.dring-thing-sold span{
+	border-right: 1px solid #d2d2d2;
+	font-size: 12px;
+}

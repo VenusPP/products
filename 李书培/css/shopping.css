@@ -1,0 +1,411 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-18 20:56:36
+ * @version $Id$
+ */
+ em{font-style: normal;}
+ .dr-rose{
+ 	overflow: hidden;
+ }
+.dr-roseGift{
+	font-size: 0;
+    color: #666;
+    margin-left: 9px;
+    height: 70px;
+    line-height: 70px;
+}
+.dr-roseGift a,.dr-roseGift span{
+	font-size: 14px;
+	color: #666;
+	padding-left: 6px
+}
+
+/*放大镜部分*/
+.demo{
+				width: 458px;
+				height: 458px;
+				border: 1px solid #ccc;
+				margin: 6px 1px;
+				position: relative;
+			}
+			.small{
+				width: 458px;
+				height: 458px;
+				position: relative;	
+				
+			}
+			.mask{
+				width: 100px;
+				height: 100px;
+				background-color: rgba(150,200,0,0.5);
+				position: absolute;
+				left: 0;
+				top: 0;
+				display: none;
+			}
+			.big{
+				width: 458px;
+				height: 458px;
+				position: absolute;
+				left: 468px;
+				top: 0;
+				overflow: hidden;
+				display: none;
+			}
+			.big img{
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+			.navimg ul{
+				position: relative;
+				left: -10px;
+				top: 0px;
+			}
+			.navimg li{
+				height: 58px;
+				width: 58px;
+				margin-left: 24px;
+				float: left;
+				cursor: pointer;
+			}
+			.navimg .current{
+				border: 1px solid red;
+			}
+			.dr-ringBuyLfet{
+				float: left;
+			}
+	/*放大镜部分结束*/
+
+	/*购买详情右边部分*/
+	.dr-ringBuyRight{
+		margin-left: 14px;
+		width: 510px;
+	}
+	.dr-ringBuyRight h2{
+		font-size: 24px;
+		color: #000;
+	}
+	.dr-ringPrice{
+		overflow: hidden;
+		height: 20px;
+		line-height: 20px;
+		margin:10px 0;
+	}
+	.dr-ringPrice span{
+		display: inline;
+		font-family: "microsoft yahei";
+	    color: #c57d5c;
+	    font-size: 24px;
+	}
+	.dr-ringPrice a{
+		font-size: 12px;
+    	color: #999;
+	}
+	.dr-ringPrice a:hover{
+		color: #c57d5c;
+	}
+	/*<!-- 售出情况  -->*/
+	.dr-ringSale{
+		clear: both;
+		text-align: center;
+	}
+	.dr-ringSale ul{
+		display: inline-block;
+		background: #f9f9f9;
+		border-bottom: 1px dashed #ddd;
+		border-top: 1px dashed #ddd;
+		margin:10px 0;
+
+	}
+	.dr-ringSale li{
+		float: left;
+		padding: 10px 58px;
+		border-left: 1px dashed #ddd;
+	}
+	.dr-ringSale li:nth-child(1){
+		border-left: none;
+	}
+	.dr-ringSale span{
+		color: #999;
+		font-size: 12px;
+		vertical-align: middle;
+	}
+	.dr-ringSale i{
+		color: #ffacac;
+		font-size: 12px;
+		vertical-align: middle;
+	}
+	/*售出情况结束 */
+	/*售出材质*/
+	.dr-choose{
+		background: #fffdf8;
+		padding: 20px;
+		padding-right: 0;
+	}
+	/*购买数量*/
+	.dr-choose span,.dr-seleCount span{
+		color: #838383;
+		font-size: 12px;
+		margin-right: 14px;
+		display: inline-block;
+		width: 50px;
+		text-align: left;
+	}
+	.dr-choose .dr-chooseit{
+		width: 61px;
+	    height: 36px;
+	    line-height: 36px;
+	    border: 2px solid #c57d5d;
+    	background: url(../imgsshopping/right.png) no-repeat right bottom;
+    	font-size: 12px;
+	}
+	.dr-count{
+		display: inline-block;
+	}
+	.dr-count i,.dr-count em{
+		float: left;
+	}
+	.dr-count i{
+		display: inline-block;
+		width: 28px;
+		height: 28px;
+		line-height: 28px;
+		background: #f5f5f5;
+		font-size: 18px;
+		color: #666;
+		border: 1px solid #e2e1e3;
+		cursor: pointer;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.dr-count em{
+		display: inline-block;
+		border: 1px solid #e2e1e3;
+		border-left: none;
+		border-right: none;
+		background: #fff;
+		width: 42px;
+		text-align: center;
+		height: 28px;
+		line-height: 28px;
+		font-size: 12px;
+	}
+	/*购买数量结束*/
+
+	/*购物车部分*/
+	.dr-ringbuy-Button{
+	    font-family: "microsoft yahei";
+	    margin: 30px 0 30px 20px;	
+	}
+	.dr-ringbuy-Button .toCart{
+		width: 180px;
+	    height: 40px;
+	    line-height: 40px;
+	    text-align: center;
+	    background: #c57d5c;
+	    color: #fff;
+	    display: inline-block;
+	    font-size: 16px;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+	.toCart span{
+		background: url(../imgsshopping/shopcart.png) no-repeat left center;
+    	padding-left: 26px;
+	}
+	.toCart:hover:hover{
+		background: #d49e85;
+	}
+	.tobuy-it{
+		width: 178px;
+	    height: 38px;
+	    line-height: 38px;
+	    text-align: center;
+	    background: #fff;
+	    border: 1px solid #c57d5c;
+	    color: #c57d5c;
+	    display: inline-block;
+	    font-size: 16px;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+	.tobuy-it:hover{
+		color: #d49e85;
+	}
+	.to-nosc{
+		font-size: 14px;
+	    color: #dbb2a2;
+	    background: url(../imgsshopping/tosc.png) no-repeat left center;
+	    display: inline-block;
+	    vertical-align: middle;
+	    height: 20px;
+	    line-height: 20px;
+	    padding-left: 26px;
+	    margin-left: 10px;
+	    cursor: pointer;
+	}
+	/*购物车部分结束*/
+	/*配送开始*/
+	.ringbuy-Delivery{
+		font-size: 12px;
+	    color: #838383;
+	    padding-left: 20px;
+	    border-bottom: 1px dashed #ddd;
+	    padding-bottom: 10px;
+	}
+	/*配送结束*/
+	/*服务承诺*/
+	.ringbuy-Promise{
+	 	padding: 14px 0 14px 20px;
+	    border-bottom: 1px dashed #ddd;
+	}
+	.ringbuy-Promise strong{
+		font-size: 12px;
+		color: #838383;
+		vertical-align: middle;
+		margin-right: 12px;
+	}
+	.ringbuy-Promise span{
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 12px;
+		color: #838383;
+		height: 24px;
+		line-height: 24px;
+		padding-left: 25px;
+		margin-right: 14px;
+	}
+	.ringbuy-Promise .fristRing{
+		 background: url(../imgsshopping/sev_first.png) no-repeat left center;
+	}
+	.ringbuy-Promise .secondRing{
+		background: url(../imgsshopping/sev_sec.png) no-repeat left center;
+	}
+	.ringbuy-Promise .thirdRing{
+		background: url(../imgsshopping/sev_third.png) no-repeat left center;
+	}
+	.ringbuy-Promise a{
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 12px;
+		color: #fff;
+		background: #d9b39b;
+		width: 85px;
+		height: 24px;
+		text-align: center;
+		border-radius: 3px;
+		margin-left: 60px;
+	}
+	.ringbuy-Promise i{
+		display: inline-block;
+		height: 16px;
+		line-height: 16px;
+		background: url(../imgsshopping/thekf.gif) no-repeat left center;
+		padding-left: 24px;
+		margin-top: 4px;
+	}
+	/*服务承诺部分结束	*/
+	/*购物车右侧结束*/
+	/*购物分享*/
+	.ringBuy-share{
+		text-align: left;
+		padding: 20px 0;
+	}
+	.ringBuy-share span{
+		vertical-align: middle;
+	    font-size: 12px;
+	    color: #7f7f7f;
+	    margin:0 10px 0 55px;
+	}
+	.ringBuy-share a{
+		display: inline-block;
+		width: 26px;
+		height: 26px;
+		margin: 0 2px;
+		vertical-align: middle;
+		background: url(../imgsshopping/ico-shares.png) no-repeat;
+	}
+	/*购物分享结束*/
+	/*热门推荐*/
+	.ring-hot{
+		border-bottom: 2px solid #eaeceb;
+	    text-align: center;
+	    margin-bottom: 40px;
+	    height: 25px;
+	    position: relative;
+	}
+	.ring-hot span{
+	    display: inline-block;
+	    border-bottom: 2px solid #222;
+	    height: 25px;
+	    padding: 0 24px;
+	    color: #222;
+	    font-size: 12px;
+	    font-weight: bold;
+	}
+	.ring-hot a{
+		display: inline-block;
+	    position: absolute;
+	    right: 0;
+	    bottom: 10px;
+	    font-size: 12px;
+	    color: #222;
+	    margin-left: 20px;
+	}
+    /*热门推荐结束*/
+    /*热门商品区*/
+    .ring-hot-area{
+    	margin-bottom: 50px;
+		position: relative;
+    }
+    .ring-hot-left,.ring-hot-right{
+    	background: url(../imgsshopping/pre_next.png) no-repeat;
+		position: absolute;
+		width: 10px;
+		height: 19px;
+		top: 50%;
+		margin-top: -10px;
+		cursor: pointer;
+		z-index: 10;
+    }
+    .ring-hot-left{
+    	background-position: 0 -19px;
+    	left: 15px;
+    }
+    .ring-hot-right{
+    	background-position: -10px 0;
+    	right: 15px;
+    }
+    .ring-hot-pic{
+        width: 870px;
+	    margin: 0 auto;
+	    position: relative;
+	    overflow: hidden;
+	    height: 190px;
+    }
+    .ring-hot-pic ul{
+    	height: 130px;
+    	position: absolute;
+    	left: 0;
+    }
+    .ring-hot-pic li{
+		float: left;
+		width: 130px;
+		padding-right: 50px;
+		text-align: center;
+		position: relative;
+    }
+    .ring-hot-pic p{
+    	font-size: 12px;
+		color: #888;
+		line-height: 20px;
+    }
+    .ring-hot-pic span{
+		color: #c57d5c;
+		font-family: "microsoft yahei";
+    }
+    

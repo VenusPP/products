@@ -1,0 +1,349 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-17 09:30:46
+ * @version $Id$
+ */
+/*公共部分*/
+html,body,h1,h2,h3,h4,h5,img,p,ul,li,img,a,div{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+i{
+	display: inline;
+	font-style: normal;
+}
+h1,h2,h3,h4,h5{
+	font-weight: normal;
+}
+input{
+	outline-style: none;
+}
+img{
+	vertical-align: top;
+}
+.fl{float: left;}
+.fr{float: right;}
+.w{width: 1000px;margin: 0 auto;}
+.w1200{
+	width: 1200px;
+	margin:0 auto;
+}
+ /*公共部分结束*/
+ /*头部开始*/
+ /*头部部分*/
+.dr-header{
+	width: 100%;
+	height: 65px;
+	overflow: hidden;
+}
+.dr-logo{
+	margin-top: 20px;
+	float: left;
+}
+.dr-remenber{
+	float: right;
+	position: relative;
+}
+.telphone{
+	position: relative;
+	padding-left: 18px;
+}
+.dr-reseclet{
+	float: left;
+	margin: 30px 0 5px 0;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.dr-reseclet a{
+	color: #8d8d8d;
+}
+.dr-reseclet a:hover{
+	color: #c57d5c;
+}
+.dr-reseclet i{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: url(../images/telleft.png) no-repeat;
+	left: -1px;
+	top: 3px;
+}
+ /*头部部分结束*/
+ /*banner部分*/
+ .dr-banner{
+	width: 100%;
+ 	height: 565px;
+ 	position: relative;
+  	overflow: hidden; 
+}
+.dr-banner ul{
+	width: 100%;
+	height: 565px;
+}
+.dr-banner li{
+	position: absolute;
+}
+ /*登录部分*/
+.dr-pastform{
+	position: absolute;
+	top: 80px;
+	left: 50%;
+	margin-left: 160px;
+	width: 310px;
+	height: 380px;
+	border-radius: 3px;
+	border: 1px solid #e4e6e8;
+	background: #fff;
+	overflow: hidden;
+	z-index: 1;
+}
+.dr-pastform h3{
+	height: 38px;
+    font-size: 14px;
+    color: #c67c59;
+    font-family: "microsoft yahei";
+    text-align: center;
+    line-height: 52px;
+    width: 126px;
+    float: left;
+    padding-left: 28px;
+    padding-bottom: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.dr-pastform h3.current{
+	background: #f5f5f5;
+	border-bottom: 1px solid #d2d5d7;
+
+}
+.tellsign,.postsign{
+	clear: both
+
+}
+
+.tellsign .dr-pastfirst,.postsign .dr-pastfirst{
+	width: 235px;
+	margin-top:12px;
+	margin-left: 38px;
+	border: 1px solid red;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 12px;
+	background: #fff2f2 url(../imgslogin/ico-error.png) no-repeat 4px center;
+	display: none;
+}
+.dr-pastfirst span{
+	margin-right: 61px;
+}
+.dr-formTop .dr-input-one{
+	display: block;
+	width: 208px;
+	height: 36px;
+	border: 1px solid #e6e6e6;
+	border-radius: 4px;
+	margin-top: 12px;
+	color: #666;
+	line-height: 38px;
+	margin-left: 38px;
+	padding-left: 25px;
+	background: url(../imgslogin/ico-uinput.png) no-repeat 2px 9px;
+}
+.postsign .dr-input-one{
+	background: url(../imgslogin/ico-uinput.png) no-repeat 2px -130px;
+}
+.dr-formTop input:nth-child(2){
+	background: url(../imgslogin/ico-uinput.png) no-repeat 2px -25px;
+}
+.dr-formMid{
+	overflow: hidden;
+}
+.dr-formMid input{
+       display: block;
+	   width: 92px;
+	   height: 36px;
+	   border: 1px solid #e6e6e6;
+       border-radius: 4px;
+	   margin-top: 12px;
+	   color: #666;
+	   line-height: 38px;
+	   margin-left: 38px;
+	   padding-left: 25px;
+	   float: left;
+	   background: url(../imgslogin/ico-uinput.png) no-repeat 2px -98px;
+}
+.dr-formMid button{
+	float: left;
+	width: 105px;
+	height: 40px;
+	margin: 12px 0 0 11px;
+	background: url(../imgslogin/getCodeBtn.png) no-repeat;
+	color: #c57d5c;
+	text-align: center;
+	font-size: 12px;
+	line-height: 40px;
+	outline-style: none;
+	cursor: pointer;
+	border: none;
+}
+.cheakterms{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 40px;
+}
+.cheakterms a{
+	color: #c57d5c;
+}
+.dr-login a{
+	display: inline-block;
+    width: 246px;
+    height: 38px;
+    margin-top: 31px;
+    border-radius: 4px;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+	margin-left: 38px;
+    border: 1px solid #c57d5c;
+    background: #c57d5c;
+    color: #fff;
+}
+.dr-otherlogin{
+	margin-top: 24px;
+    width: 100%;
+    height: 45px;
+    background: #f9f9f9;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    text-align: center;
+    font-size: 12px;
+
+}
+.dr-otherlogin a{
+	display: inline-block;
+	width: 21px;
+	height: 16px;
+	margin: 9px 8px 0;
+	background: url(../imgslogin/ico-otherLogin.png) no-repeat 0 -28px;
+}
+
+
+ /*底部部分*/
+.dr-footericon{
+
+	width: 100%;
+	height: 152px;
+	overflow: hidden;
+}
+.dr-footericon li{
+	float: left;
+	position: relative;
+}
+.dr-footericon a{
+	display: block;
+	padding: 33px 33px;
+	color: #666;
+}
+.dr-footericon span{
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.dr-footericon i{
+	display: block;
+	width: 62px;
+	height: 62px;
+	background: url(../images/icon_footer.png) no-repeat;
+}
+.dr-gray{
+	width: 100%;
+	height: 100px;
+	background-color: #e9e9e9;	
+}
+.dr-gray li{
+	float: left;
+	position: relative;
+}
+.dr-gray a{
+	display: block;
+	padding: 40px 50px;
+	color: #666;
+}
+.dr-gray i{
+	position: absolute;
+	left: 4px;
+	top: 32px;
+	width: 39px;
+	height: 39px;
+	background: url(../images/coin_left.png) no-repeat left;
+	cursor: pointer;
+}
+.dr-gray-tel{
+	text-align: center;
+	padding: 20px 0;
+}
+.dr-gray-tel p{
+	display: block;
+	padding-bottom: 5px;
+	font-size: 14px;
+	color: #666;
+}
+.dr-gray-tel span{
+	font-size: 20px;
+	font-weight: 400;
+	color: #797979;
+}
+.dr-black{
+	width: 100%;
+	height: 472px;
+	background-color: #797979;
+	overflow: hidden;
+}
+.dr-servie{
+	padding-top: 60px;
+	overflow: hidden;
+}
+.dr-servie ul{
+	float: left;
+}
+.dr-servie li{
+	border-left: 1px solid #e4e4e4;
+}
+ .dr-servie .dr-fristUl{
+	border-left: none;
+}
+.dr-servie li h4{
+	padding-left: 48px;
+	color: #cdcdcd;
+}
+.dr-servie a{
+	display: block;
+	padding: 3px 50px;
+	color: #cdcdcd;
+}
+.dr-statement{
+	margin-top: 60px;
+}
+.dr-statement p{
+	text-align: center;
+	font-size: 12px;
+	color: #cdcdcd;
+}
+.dr-friendshare{
+	margin: 8px 0 40px 0;
+	color: #999898;
+	text-align: center;
+	font-size: 12px;
+}
+.dr-friendshare a{
+	color: #999898;
+}
+.dr-langues{
+	text-align: center;
+}
+.dr-langues a{
+	color: #999898; 
+}
+ /*底部结束*/

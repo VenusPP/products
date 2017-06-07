@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-12 15:21:44
+ * @version $Id$
+ */
+ /*公共部分*/
+html,body,h1,h2,h3,h4,h5,img,p,ul,li{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+i{
+	display: inline;
+	font-weight: normal;
+}
+input{
+	outline-style: none;
+}
+.fl{float: left;}
+.fr{float: right;}
+.w{width: 1000px;margin: 0 auto;}
+
+/*头部部分*/
+.dr-header{
+	width: 100%;
+	height: 170px;
+	/*background-color: pink;*/
+	overflow: hidden;
+}
+.dr-logo{
+	margin: 30px 0 18px 0;
+	float: left;
+
+}
+.dr-manonly{
+	float: left;
+	margin-left: 51px;
+}
+.dr-manonly span{
+	display: block;
+	/*margin :268px 0 0 51px;*/
+	text-align: center;
+	line-height: 268px;
+	color: #000;
+}
+.dr-remenber{
+	float: right;
+	position: relative;
+}
+.dr-reseclet{
+	float: left;
+	margin: 30px 0 74px 0;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.telphone{
+	position: relative;
+	padding-left: 18px;
+}
+.dr-reseclet a{
+	color: #8d8d8d;
+}
+.dr-reseclet i{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: url(../images/telleft.png) no-repeat;
+	left: -1px;
+	top: 3px;
+}
+.dr-position{
+	position: absolute;
+	right: -18px;
+	top: 74px;
+	color: #8d8d8d;
+	font-size: 16px;
+	cursor: pointer;
+}
+.dr-position .fristSpan{
+	color: #bf967c;
+	position: relative;
+}
+.fristSpan::before{
+	position: absolute;
+	content: "";
+	display: block;
+	width: 10px;
+	height: 14px;
+	background: url(../images/ico-gps.png) no-repeat left top;
+	left: -18px;
+	top: 4px;
+
+}
+.dr-input{
+	text-align: right;
+	font-size: 14px;
+}
+.dr-input span{
+	cursor: pointer;
+}
+.dr-input input{
+	width: 290px;
+	height: 28px;
+	border: 1px solid #d6d6d6;
+	margin-left: 20px;
+}
+
+.dr-input i{
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	background: url(../images/ico-seach.png) no-repeat;
+	right: 1px;
+	bottom: 1px;
+	cursor: pointer;
+}
+
+/*底部部分*/
+.dr-footericon{
+	width: 100%;
+	height: 152px;
+	overflow: hidden;
+}
+.dr-footericon li{
+	float: left;
+	position: relative;
+}
+.dr-footericon a{
+	display: block;
+	padding: 33px 33px;
+	color: #666;
+	font-size: 18px;
+}
+.dr-footericon span{
+	text-align: center;
+	display: block;
+	margin-top: 80px;
+}
+.dr-footericon i{
+	display: block;
+	position: absolute;
+	left: 37px;
+	top: 30px;
+	width: 62px;
+	height: 62px;
+	background: url(../images/icon_footer.png) no-repeat ;
+}
+.dr-gray{
+	width: 100%;
+	height: 100px;
+	background-color: #e9e9e9;
+
+	
+}
+.dr-gray li{
+	float: left;
+	position: relative;
+}
+.dr-gray a{
+	display: block;
+	padding: 40px 50px;
+	color: #666;
+}
+.dr-gray i{
+	position: absolute;
+	left: 4px;
+	top: 32px;
+	width: 39px;
+	height: 39px;
+	background: url(../images/coin_left.png) no-repeat left;
+	cursor: pointer;
+}
+.dr-gray-tel{
+	text-align: center;
+	padding: 20px 0;
+}
+.dr-gray-tel p{
+	display: block;
+	padding-bottom: 5px;
+	font-size: 14px;
+	color: #666;
+}
+.dr-gray-tel span{
+	font-size: 20px;
+	font-weight: 400;
+	color: #797979;
+
+}
+.dr-black{
+	width: 100%;
+	height: 472px;
+	background-color: #797979;
+	overflow: hidden;
+}
+.dr-servie{
+	padding-top: 60px;
+	overflow: hidden;
+}
+.dr-servie ul{
+	float: left;
+}
+.dr-servie li{
+	border-left: 1px solid #e4e4e4;
+}
+ .dr-servie .dr-fristUl{
+	border-left: none;
+
+}
+.dr-servie li h4{
+	padding-left: 48px;
+	color: #cdcdcd;
+}
+.dr-servie a{
+	display: block;
+	padding: 3px 50px;
+	color: #cdcdcd;
+}
+.dr-statement{
+	margin-top: 60px;
+}
+.dr-statement p{
+	text-align: center;
+	font-size: 12px;
+	color: #cdcdcd;
+}
+.dr-friendshare{
+	margin: 8px 0 40px 0;
+	color: #999898;
+	text-align: center;
+	font-size: 12px;
+}
+.dr-friendshare a{
+	color: #999898;
+}
+.dr-langues{
+	text-align: center;
+}
+.dr-langues a{
+	color: #999898; 
+
+}
+
