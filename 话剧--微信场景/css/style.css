@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-06-06 07:59:44
+ * @version $Id$
+ */
+ /*公共部分*/
+        body,html,p{margin: 0; padding: 0;}
+        body,html,.swiper-container{
+            height: 100%;
+            width:100%;
+        }
+        /*第一部分*/
+        .demo-one,.demo-two,.demo-three,.demo-four,.demo-five,.demo-six{
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        .demo-one img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .demo-one img:nth-child(3),.demo-two img:nth-child(1),.demo-three img:nth-child(1),.demo-four img:nth-child(1){
+            width: 100%;
+            height: 100%;
+        }
+        /*第二部分*/
+        .demo-two img,.demo-three img,.demo-four img,.demo-five img{
+            width: 50%;
+            position: absolute;
+        }
+        .demo-two img:nth-child(2),.demo-three img:nth-child(2){
+            left: 46px;
+            top: 20px;
+            width: 80%;
+        }
+        .demo-two img:nth-child(3){
+            top: 258px;
+            right: 16px;
+        }
+        .demo-two img:nth-child(4),.demo-three img:nth-child(4){
+            top: 331px;
+            right: 67px;
+        }
+        .demo-two img:nth-child(5),.demo-three img:nth-child(5){
+            bottom: 214px;
+            right: 67px;
+        }
+        .demo-two img:nth-child(6),.demo-three img:nth-child(6){
+            bottom: 134px;
+            right: 67px;
+        }
+        /*第三部分*/
+        .demo-three img:nth-child(3){
+            top: 227px;
+            right: 16px;
+        }
+        /*第四部分*/
+        .demo-four img:nth-child(2){
+            left: 46px;
+            bottom: 100px;
+            width: 80%;
+        }
+        .demo-four img:nth-child(3){
+            top: 34px;
+            left: 43px;
+            height: 34%;
+            width: 8%;
+        }
+        .demo-four img:nth-child(4){
+            top: 60px;
+            left: 110px;
+        }
+        .demo-four img:nth-child(5){
+            top: 124px;
+            left: 110px;
+        }
+        .demo-four img:nth-child(6){
+            top: 208px;
+            left: 110px;
+        }
+        /*第五部分*/
+        .demo-five img:nth-child(1){
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top:0;
+        }
+        .demo-five img:nth-child(2){
+            top: 94px;
+            left: 74px;
+        }
+        .demo-five img:nth-child(3){
+            top: 164px;
+            left: 83px;
+        }
+        .demo-five img:nth-child(4){
+            top: 226px;
+            left: 83px;
+        }
+        .demo-five img:nth-child(5){
+            top: 288px;
+            left: 83px;
+        }
+        /*第六模块*/
+        .toptext,.demo-six input,.demo-six textarea,.demo-six button{
+			position: absolute;
+        }
+       .demo-six input{
+        	width: 74%;
+        	height: 5%;
+        	padding-left: 10px;
+        	outline-style: none;
+        }
+        .toptext{
+        	top: 13%;
+        	left: 40%;
+        	font-size: 30px;
+        }
+        .ipu_one{
+        	top: 25%;
+        	left: 16%;
+        }
+        .ipu_two{
+			top: 35%;
+        	left: 16%;
+        }
+        .ipu_three{
+			top: 45%;
+        	left: 16%;
+        }
+        .demo-six textarea{
+			top: 53%;
+        	left: 16%;
+        	padding-left:10px;
+        	outline-style: none; 
+        }
+        .demo-six button{
+        	width: 81%;
+        	height: 10%;
+        	top: 78%;
+        	left: 16%;
+        	background-color: orange;
+        	text-align: center;
+        	line-height: 10%;
+        	font-size: 20px;
+        	color: white;
+        	outline-style: none;
+        	border-radius: 15px;
+        }
