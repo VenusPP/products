@@ -1,0 +1,368 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-06-05 22:45:57
+ * @version $Id$
+ */
+/* 公共类 */
+html,body,.swiper-container{width: 100%;height: 100%;}
+i,em,b{
+	font-style: normal;
+}
+b{
+	font-weight: normal;
+}
+/* 第一模块 */
+.demo-one,.demo-two,.demo-three,.demo-four,.demo-five,.demo-six{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.demo-one img,.demo-two img,.demo-three img,.demo-four img,.demo-five img,.demo-six img{
+	width: 100%;
+	position: absolute;
+}
+.demo-one img:nth-child(1),.demo-two img:nth-child(1),.demo-three img:nth-child(1),.demo-four img:nth-child(1),.demo-five img:nth-child(1),.demo-six img:nth-child(1){
+	height: 100%
+}
+.demo-one img:nth-child(2),.demo-six img:nth-child(2){
+	left: 13%;
+	top: 13%;
+	width: 70%;
+	height: 58%
+}
+.demo-one img:nth-child(3),.demo-six img:nth-child(3){
+	left: 5%;
+	top: 33%;
+	width: 90%;
+}
+
+/* 第二部分开始 */
+.demo-two img:nth-child(2){
+	width: 10%;
+	left: 14%;
+	top:12%;
+}
+.demo-two img:nth-child(3){
+	width: 10%;
+	right: 15%;
+	top:12%;
+}
+.demo-two img:last-child{
+	width: 60%;
+	bottom: -8%;
+	left: 18%;
+}
+.happyChis{
+	font-size: 25px;
+	color: pink;
+	position: absolute;
+	top: 12%;
+	left: 26%;
+}
+.demo-two i{
+	font-size: 16px;
+	color: pink;
+	position: absolute;
+	top: 19%;
+	left: 24%;
+}
+ .demo-two .giftbang{
+	width: 70%;
+	right: 12%;
+	top:29%;
+}
+.demo-two p{
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	top: 32%;
+	left: 59%;
+}
+.demo-two b{
+	font-size: 18px;
+	color: pink;
+	position: absolute;
+	top: 43%;
+	left: 13%;
+}
+.demo-two em{
+	font-size: 20px;
+	color: pink;
+	position: absolute;
+	top: 39%;
+	left: 17%;
+}
+.party{
+	width: 253px;
+	height: 40px;
+	background-color: red;
+	position: absolute;
+	right: 13%;
+	bottom: 41%;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 18px;
+}
+/*第三部分*/
+.demo-three img:nth-child(2){
+	width: 61%;
+	height: 20%;
+	left: 3%;
+	top: 13%;
+}
+.demo-three img:nth-child(3){
+	width: 60%;
+	height: 9%;
+	right: 6%;
+	top: 32%;
+}
+.demo-threeChis{
+	font-size: 21px;
+	color: red;
+	position: absolute;
+	top: 33%;
+	left: 43%;
+}
+.demo-three img:nth-child(5){
+	width: 46%;
+	height: 20%;
+	right: 51%;
+	top: 73%;
+}
+.demo-three img:nth-child(6){
+	width: 46%;
+	height: 20%;
+	right: 3%;
+	top: 73%;
+}
+.demo-three img:nth-child(7){
+	width: 46%;
+	height: 20%;
+	right: 51%;
+	top: 42%;
+}
+.demo-three img:nth-child(8){
+	width: 46%;
+	height: 20%;
+	right: 3%;
+	top: 42%;
+}
+.demo-three i{
+	font-size: 18px;
+	color: red;
+	position: absolute;
+	top: 53%;
+	left: 8%;
+	font-weight: 700;
+}
+.demo-three em{
+	font-size: 16px;
+	color: red;
+	position: absolute;
+	top: 53%;
+	left: 56%;
+}
+.demo-three b{
+	font-size: 18px;
+	color: red;
+	position: absolute;
+	top: 84%;
+	left: 6%;
+}
+.Demothreeparty{
+	width: 253px;
+	height: 40px;
+	/*background-color: red;*/
+	position: absolute;
+	right: 18%;
+	bottom: 30%;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 29px;
+}
+.demo-three p{
+	font-size: 18px;
+	color: red;
+	position: absolute;
+	top: 81%;
+	left: 53%;
+}
+/*第四部分*/
+.demo-four img:nth-child(2),.demo-four img:nth-child(3),.demo-four img:nth-child(4),.demo-four img:nth-child(5){
+	width: 46%;
+	height: 35%;
+}
+.demo-four img:nth-child(2){
+	left: 2%;
+	top: 12%;
+}
+.demo-four img:nth-child(3){
+	left: 53%;
+	top: 12%;
+}
+.demo-four img:nth-child(4){
+	left: 2%;
+	top: 40%;
+}
+.demo-four img:nth-child(5){
+	left: 53%;
+	top: 40%;
+}
+.demo-four img:nth-child(6){
+	width: 43%;
+	height: 33%;
+	bottom: -5%;
+	left: 5%;
+}
+.demo-four img:nth-child(7){
+	width: 42%;
+	height: 23%;
+	bottom: 1%;
+	left: 52%;
+}
+.demo-fourhappyChis{
+	font-size: 16px;
+	color: red;
+	position: absolute;
+	bottom: 16%;
+	left: 54%;
+}
+.demo-four i{
+	font-size: 16px;
+	color: red;
+	position: absolute;
+	top: 85%;
+	left: 54%;
+}
+.demo-four em{
+	font-size: 16px;
+	color: red;
+	position: absolute;
+	top: 89%;
+	left: 54%;
+}
+.demo-four b{
+	font-size: 16px;
+	color: red;
+	position: absolute;
+	top: 93%;
+	left: 54%;
+}
+/*第五部分*/
+.demo-five img:nth-child(2){
+	width: 88%;
+	height: 20%;
+	left: 6%;
+	top: 5%;
+}
+.demo-five img:nth-child(3){
+	width: 88%;
+	height: 20%;
+	left: 6%;
+	top: 31%;
+}
+.demo-five img:nth-child(4){
+	width: 88%;
+	height: 20%;
+	left: 6%;
+	top: 57%;
+}
+.demo-five img:nth-child(5){
+	width: 33%;
+	height: 15%;
+	left: 55%;
+	top: 7%;
+}
+.demo-five img:nth-child(6){
+	width: 33%;
+	height: 15%;
+	left: 55%;
+	top: 33%;
+}
+.demo-five img:nth-child(7){
+	width: 33%;
+	height: 15%;
+	left: 55%;
+	top: 59%;
+}
+.demo-five img:nth-child(8){
+	width: 50%;
+	height: 44%;
+	left: 3%;
+	bottom: -15%;
+}
+.demo-five img:nth-child(9){
+	width: 50%;
+	height: 15%;
+	left: 50%;
+	bottom: 4%;
+}
+.demo-fivehappyChis{
+	font-size: 16px;
+	color: red;
+	position: absolute;
+	top: 11%;
+	left: 17%;
+	color: white;
+}
+.demo-five-i{
+	font-size: 16px;
+	color: red;
+	position: absolute;
+	top: 15%;
+	left: 19%;
+	color: #ebe400;
+}
+.demo-five em{
+	font-size: 16px;
+	color: red;
+	position: absolute;
+	top: 37%;
+	left: 19%;
+	color: white;
+}
+.demo-five b{
+	font-size: 16px;
+	color: red;
+	position: absolute;
+	top: 41%;
+	left: 20%;
+	color: #ebe400;
+}
+.demo-fiveSpan{
+	font-size: 16px;
+	color: red;
+	position: absolute;
+	top: 63%;
+	left: 20%;
+	color: white;
+}
+.demo-five-ii {
+	font-size: 16px;
+	color: red;
+	position: absolute;
+	top: 67%;
+	left: 20%;
+	color: #ebe400;
+}
+/*第六部分*/
+.demo-six img:nth-child(3){
+	top: 20%;
+}
+.demo-six img:nth-child(4){
+	width: 30%;
+	height: 18%;
+	left: 54%;
+	bottom:31%;
+}
+.demo-six img:nth-child(5){
+	width: 45%;
+	height: 28%;
+	left: 4%;
+	bottom:0%;
+}
+/*end*/
